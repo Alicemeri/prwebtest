@@ -1,7 +1,7 @@
 # Membres du groupe
 # Walid Fettane
 
-# meriem OULD TALEB 
+# meriem OULD TALEB meriem.ould-taleb@etu.univ-orleans.fr
 
 # aya hassani 
 
