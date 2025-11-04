@@ -13,4 +13,12 @@
 
 # la question 1
 
- USERNAME=$(basename $(id-un) @campus.univ-orleans.fr) USERID=$(id-u) docker-compose up-d
+ USERNAME=$(id -un) USERID=$(id -u) docker compose up -d
+
+((django) ) [ jax | ~/workspace ] django-admin startproject cc
+
+((django) ) [ jax | ~/workspace ] cd cc
+
+((django) ) [ jax | ~/workspace/cc ] python manage.py startapp medico
+
+((django) ) [ jax | ~/workspace/cc ] python manage.py runserver 0.0.0:8000&
