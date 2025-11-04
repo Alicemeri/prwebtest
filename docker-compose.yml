@@ -7,13 +7,13 @@ services:
     args:
       USERNAME: # À Compléter
       USERID:   # À Compléter
-  container_name: fw1-cc1
+  container_name: fw1-cc1-test
   command: /bin/bash
   tty: true
   stdin_open: true
   volumes:
   - .:/home/user/workspace
   ports:
-  - "8088:8000"
+  - "8087:8000"
   environment:
     PS1: "[ $$(whoami) | \\w ] "

@@ -22,3 +22,6 @@
 ((django) ) [ jax | ~/workspace/cc ] python manage.py startapp medico
 
 ((django) ) [ jax | ~/workspace/cc ] python manage.py runserver 0.0.0:8000&
+
+
+## question2
